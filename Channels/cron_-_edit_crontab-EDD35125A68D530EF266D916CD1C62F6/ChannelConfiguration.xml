@@ -1,0 +1,25 @@
+<channel
+   name="cron - edit crontab"
+   guid="EDD35125A68D530EF266D916CD1C62F6"
+   description="Shows an example of reading the crontab under linux and changing it with Iguana."
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="cron_-_edit_crontab-FromHTTP-qSKZ3hPjp5V58J"
+      commit_id="03f5a0a7f47262b70f37a86e7df8257e15f504f0"
+      commit_comment="Little crontab example."
+      mapper_url_path="crontab/"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>
