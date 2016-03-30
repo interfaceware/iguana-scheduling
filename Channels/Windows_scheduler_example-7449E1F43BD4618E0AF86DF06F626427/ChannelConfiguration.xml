@@ -1,0 +1,25 @@
+<channel
+   name="Windows scheduler example"
+   guid="7449E1F43BD4618E0AF86DF06F626427"
+   description="Simple example of scheduling a task with the Windows scheduler which is kind of the equivalent of cron for Windows.&#xD;&#xA;"
+   start_automatically="true"
+   logging_level="1"
+   use_message_filter="false">
+   <to_channel>
+   </to_channel>
+   <from_http
+      type="mapper"
+      guid="Windows_scheduler_example-FromHTTP-NwcJk0ZieopvxL"
+      commit_id="18a76c4cc6e60c6448f422280f7529f3a9f30505"
+      commit_comment="Made sure the help was correct."
+      mapper_url_path="schedule/"/>
+   <message_filter
+      filter_after_logging="false"
+      log_pre_post_filter_message="true"
+      filter_vmd_path=""
+      transformation_mode="0"
+      scripted_transformation_configuration_name="default"
+      error_handling="0"
+      use_translator_filter="true">
+   </message_filter>
+</channel>

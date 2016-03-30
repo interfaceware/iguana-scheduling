@@ -1,0 +1,13 @@
+{
+    "LocalDependencies": [],
+    "LuaDependencies": [
+        "windows.scheduler"
+    ],
+    "OtherDependencies": [],
+    "timestamp": "1459360390",
+    "version_info": {
+        "build": 0,
+        "major": 6,
+        "minor": 0
+    }
+}
